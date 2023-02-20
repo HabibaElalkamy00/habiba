@@ -1,0 +1,17 @@
+#message{
+    position: relative;
+    bottom: 140px;
+}
+
+#form{
+    font-family: cursive;
+    font-size: large;
+}
+
+.bgcolor{
+    background-color: bisque;
+}
+
+.form1{
+    font-family: cursive;
+}
