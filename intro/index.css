@@ -1,0 +1,123 @@
+h1{
+    margin: auto;
+    padding: 100px;
+    font-family: cursive;
+    color: salmon;
+}
+
+img{
+    position: relative;
+    right: 550px;
+}
+
+p{
+    position: relative;
+    bottom: 300px;
+    font-size: large;
+    left: 170px;
+    font-family: cursive;
+}
+
+h2{
+    position: relative;
+    bottom: 300px;
+    left: -305px;
+    font-family: cursive;
+}
+
+.two{
+    position: relative;
+    bottom: 300px;
+    left: -220px;
+    font-family: cursive;
+}
+
+#three{
+    position: relative;
+    left: 380px;
+    bottom: 300px;
+    font-family: cursive;
+}
+
+.four{
+    position: relative;
+    bottom: 300px;
+    left: 390px;
+    font-family: cursive;
+    color: salmon;
+}
+
+#five{
+    position: relative;
+    bottom: 300px;
+    left: 380px;
+    font-family: cursive;
+}
+#message{
+    position: relative;
+    left: 380px;
+    bottom: 300px;
+    font-family: cursive;
+    bottom: 140px;
+}
+
+.six{
+    position: relative;
+    bottom: 300px;
+    left: 390px;
+    color: salmon;
+}
+
+#form{
+    font-family: cursive;
+    color: salmon;
+    font-size: large;
+}
+
+.seven{
+    position: relative;
+    bottom: 300px;
+    left: 390px;
+    font-family: cursive;
+}
+
+
+.eight{
+    position: relative;
+    bottom: 300px;
+    left: 850px;
+}
+.form1{
+    font-family: cursive;
+}
+
+#e{
+    position: relative;
+    left: 80px;
+
+}
+
+#l{
+    position: relative;
+    left: 150px;
+}
+
+#m{
+    position: relative;
+    left: 220px;
+}
+
+#n{
+    position: relative;
+    left: 290px;
+}
+
+#t{
+    position: relative;
+    left: 360px;
+}
+
+#o{
+    position: relative;
+    left: 420px;
+}
