@@ -8,69 +8,84 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <center>
-        <h1>Hii , I will introduce myself : </h1>
-        <img src="WhatsApp Image 2023-02-19 at 12.45.10 PM.jpeg" width="200px" height="300px" alt="My self">
-        <h2 style="color: salmon;">Introduction : </h2>
-        <p>Hi , I'm Habiba . I'm 20 years old . I'm Live in ElShorouk City . I'm a student at Future Academy and i'm studing Computer science . </p>
-        <h2 class="two" style="color: salmon;"> The things i learned in web : </h2>
-    </center>
-    <div id="three">
-        <ol>
-            <li> Html</li>
-            <li> Css</li>
-            <li> Java Script</li>
-            <li> Bootstrap</li>
-            <li> Jquery</li>
-        </ol>
-    </div>
-
-    <h2 class="four" style="color: salmon;"> The things that i love : </h2>
-    <div id="five">
-        <ul>
-            <li>Koushari</li>
-            <dd style="color: slateblue;">This is my Favorite food</dd>
+    <form>
+        <fieldset class="bgcolor">
+            <legend id="form"> Registration Form </legend>
+            <br>
             <br>
 
-            <li>Volleyball</li>
-            <dd style="color: slateblue;">This is my Favorite game</dd>
+            <label for="fname"  class="form1"> Full Name : </label>
+            <input type="text" id="fname" name="fname" placeholder="@fullname">
+            <br>
+            <br>
             <br>
 
-            <li>handicrafts</li>
-            <li>Draw</li>
-            <dd style="color: slateblue;"> There are the two hobbies that i love the most</dd>
+            <label for=" mail" class="form1"> Email : </label>
+            <input type="email" id="mail" name="mail" placeholder="@mail">
             <br>
-        </ul>
-    </div>
+            <br>
+            <br>
 
-    <h2 class="six">My Fav Song :</h2>
-    <div class="seven">
-        <audio controls autoplay muted>
-            <source src="Etamen_Tamer_Hosny_أطمن_حفلة_تامر_حسنى_Y_1_.mp3" type="audio/ogg">
-            <source src="Etamen_Tamer_Hosny_أطمن_حفلة_تامر_حسنى_Y_1_.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-    </div>
+            <label id="message" class="form1"> Message : </label>
+            <textarea name="message" rows="10" cols="40">
+                Enter your comment ....
+            </textarea>
+            <br>
+            <br>
+            <br>
 
-    <h2 class="six">My Fav Movie :</h2>
-    <div class="seven">
-        <video width="320" height="240" controls autoplay muted >
-            <source src="ba7ebk.2022.MyCima.world.mp4" type="video/mp4">
-            <source src="ba7ebk.2022.MyCima.world.mp4" type="video/ogg">
-          Your browser does not support the video tag.
-        </video>
-    </div>
+            <h3 class="form1">Select a Choice : </h3>
+            <input type="radio" id="frist_choice" name="choice" value="Frist_Choice">
+            <label for="frist_choice" class="form1"> Frist Choice </label>
+            <br>
 
-    <h2 class="six">To communicate with me  :</h2>
-    <div class="eight">
-        <a href="https://www.facebook.com/habiba.elalkamy" id="e" target="_blank"><img src="icon/icon/facebook_logo_icon_147291.png" alt="Facebook"></a>
-        <a href="https://web.whatsapp.com/" id="l" target="_blank"><img src="icon/icon/whatsapp_icon-icons.com_62756.png" alt="WhatsApp"></a>
-        <a href="https://www.youtube.com/watch?v=AOlkcLtyXkw" id="m" target="_blank"><img src="icon/icon/3721679-youtube_108064.png" alt="Youtube"></a>
-        <a href="https://www.instagram.com/habiba_elalkamy222/" id="n" target="_blank"><img src="icon/icon/Instagram_icon-icons.com_66804.png" alt="Instagram"></a>
-        <a href="https://web.telegram.org/z/" id="t" target="_blank"><img src="icon/icon/telegram_logo_icon_147228.png" alt="Telegram"></a>
-        <a href="#" id="o" target="_blank"><img src="icon/icon/phonecall_110970.png" alt="Call"></a>
-    </div>
+            <input type="radio" id="second_choice" name="choice" value="Second_Choice">
+            <label for="second_choice" class="form1"> Second Choice </label>
+            <br>
 
+            <input type="radio" id="third_choice" name="choice" value="Third_Choice">
+            <label for="third_choice" class="form1"> Third Choice </label>
+            <br>
+            <br>
+            <br>
+
+            <h3 class="form1">Check All That Apply : </h3>
+            <input type="checkbox" id="frist_choice" name="choice" value="Frist_Choice">
+            <label for="frist_choice" class="form1"> Frist Choice </label>
+            <br>
+    
+            <input type="checkbox" id="second_choice" name="choice1" value="Second_Choice">
+            <label for="second_choice" class="form1"> Second Choice </label>
+            <br>
+    
+            <input type="checkbox" id="third_choice" name="choice2" value="Third_Choice">
+            <label for="third_choice" class="form1"> Third Choice </label>
+            <br>
+            <br>
+            <br>
+
+
+
+            <label for="choice" class="form1">Select a Choice : </label>
+            <select name="choice" id="choice">
+                <option disabled selected >Select a Choice </option>
+                <option value="frist_choice" class="form1"> Frist Choice </option>
+                <option value="second_choice" class="form1"> Second Choice </option>
+                <option value="third_choice" class="form1"> Third Choice </option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <input type="submit" value="Submit"  style="position: relative;  width: 100px; height: 50px;" class="form1">
+
+
+
+
+
+
+        </fieldset>
+    </form>
     
 </body>
 </html>

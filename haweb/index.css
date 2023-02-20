@@ -1,107 +1,17 @@
-h1{
-    margin: auto;
-    padding: 100px;
+#message{
+    position: relative;
+    bottom: 140px;
+}
+
+#form{
     font-family: cursive;
-    color: salmon;
-}
-
-img{
-    position: relative;
-    right: 550px;
-}
-
-p{
-    position: relative;
-    bottom: 300px;
     font-size: large;
-    left: 170px;
+}
+
+.bgcolor{
+    background-color: bisque;
+}
+
+.form1{
     font-family: cursive;
-}
-
-h2{
-    position: relative;
-    bottom: 300px;
-    left: -305px;
-    font-family: cursive;
-}
-
-.two{
-    position: relative;
-    bottom: 300px;
-    left: -220px;
-    font-family: cursive;
-}
-
-#three{
-    position: relative;
-    left: 380px;
-    bottom: 300px;
-    font-family: cursive;
-}
-
-.four{
-    position: relative;
-    bottom: 300px;
-    left: 390px;
-    font-family: cursive;
-}
-
-#five{
-    position: relative;
-    left: 380px;
-    bottom: 300px;
-    font-family: cursive;
-}
-
-.six{
-    position: relative;
-    bottom: 300px;
-    left: 390px;
-    font-family: cursive;
-    color: salmon;
-}
-
-.seven{
-    position: relative;
-    bottom: 300px;
-    left: 390px;
-    font-family: cursive;
-}
-
-.eight{
-    position: relative;
-    bottom: 300px;
-    left: 850px;
-    font-family: cursive;
-}
-
-#e{
-    position: relative;
-    left: 80px;
-
-}
-
-#l{
-    position: relative;
-    left: 150px;
-}
-
-#m{
-    position: relative;
-    left: 220px;
-}
-
-#n{
-    position: relative;
-    left: 290px;
-}
-
-#t{
-    position: relative;
-    left: 360px;
-}
-
-#o{
-    position: relative;
-    left: 420px;
 }
