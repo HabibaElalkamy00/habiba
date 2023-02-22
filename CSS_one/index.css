@@ -1,0 +1,91 @@
+.shape1,
+.shape2,
+.shape3,
+.shape4{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 50px;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.shape1{
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: no-repeat;
+}
+
+.shape2{
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.shape3{
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.shape4{
+    background-image: url(css-assignment-5-8.png);
+}
+
+.shape111,
+.shape222,
+.shape333{
+    margin: 200px;
+    padding: 20px;
+    width: 400px;
+    height: 20px;
+    background-color: antiquewhite;
+}
+
+.shape111{
+    border-left: 5px solid red;
+}
+
+.shape222{
+    border-left: 5px solid palevioletred;
+    visibility: hidden;
+}
+
+.shape333{
+    border-left: 5px solid mediumspringgreen;
+}
+
+.shape11,
+.shape22,
+.shape33{
+    margin: 200px;
+    padding: 20px;
+    display: inline-block;
+    background-color: antiquewhite;
+}
+
+.shape11{
+    
+    border: 5px solid red;
+    outline: 5px solid black;
+    text-align: center;
+}
+
+.shape22{
+    
+    outline: 5px solid black;
+    border: 5px;
+    border-style: solid;
+    border-color: blue green;
+    text-align: center;
+}
+
+.shape33{
+    
+    outline: 5px solid black;
+    border: 5px;
+    border-style: dashed;
+    border-color: red green blue yellow;
+    text-align: center;
+    
+}
+
