@@ -1,0 +1,29 @@
+.purple,
+.green,
+.red,
+.black{
+    font-size: 70px;
+    position: absolute;
+}
+
+.purple{
+    color: purple;
+    top: 2px;
+    left: 2px;
+}
+
+.green{
+    color: green;
+    top: 4px;
+    left: 4px;
+}
+
+.red{
+    color: red;
+    top: 6px;
+    left: 6px;
+}
+
+.black{
+    color: black;
+}
