@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.clear{
+    float: top;
+    position: relative;
+    top: 500px;
+}
+.container{
+    width: 80%;
+    margin: 0  auto;
+}
+
+ 
+
+body{
+    background-color: rgb(229, 213, 243);
+}
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 70px;
+    right: 60px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+nav .links ul li{
+    margin: 10px 25px;
+    transition: 0.5s;
+}
+
+nav .links ul li a{
+    color: rgba(0, 0, 0, 0.952);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav .links ul li:hover{
+    background-color: salmon;
+    padding: 8px;
+    border-radius: 50px;
+    
+}
+
+.fontl{
+    margin: 100px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fonts{
+    margin: 100px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    position: relative;
+    bottom: 120px;
+}
+
+
+input{
+    margin: 100px;
+    padding: 10px;
+    position: relative;
+    bottom: 300px;
+    width: 300px;
+}
+
+button{
+    background-color: rgb(77, 77, 179);
+    width: 130px;
+    height: 35px;
+    position: relative;
+    bottom: 300px;
+    right: 60px;
+}
+
+.photo1{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 700px;
+    left: 1000px;
+}
+
+.fontla{
+    margin: 100px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 500px;
+}
+
+.fontsm{
+    margin: 100px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    position: relative;
+    bottom: 580px;
+}
+
+.more{
+    margin: 100px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    position: relative;
+    bottom: 650px;
+    color: green;
+}
+
+.arrow {
+    border: solid green;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.space{
+    width: 500px;
+    height: 350px;
+    background-color: antiquewhite;
+    position: relative;
+    bottom: 650px;
+    left: 100px;
+}
+
+.write{
+    margin: 70px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.ph1{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.photo2{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    border-radius: 40px;
+}
+
+.ph2{
+    position: relative;
+    left: 70px;
+    top: 3px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.ph3{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    position: relative;
+    top: 3px;
+}
+
+.photo3{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 500px;
+    left: 900px;
+}
+
+.space1{
+    margin: 0;
+    padding: 0;
+    width: 1585px;
+    height: 300px;
+    background-color: rgb(104, 67, 104);
+    position: relative;
+    bottom: 350px;
+    right: 100px;
+}
+
+.write1{
+    margin: 70px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.ph4{
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    position: relative;
+    top: 70px;
+}
+
+.ph5{
+    font-weight: 500;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    position: relative;
+    top: 100px;
+}
+
+.input1{
+    margin: 100px;
+    padding: 10px;
+    position: relative;
+    top: -100px;
+    left: 700px;
+    width: 400px;
+}
+
+.button1{
+    background-color: rgb(77, 77, 179);
+    width: 130px;
+    height: 35px;
+    position: relative;
+    bottom: 55px;
+    right: -197px;
+}
+
+.back{
+    background-color: rgb(3, 3, 26);
+    width: 1585px;
+    height: 350px;
+    position: relative;
+    bottom: 430px;
+    right: 100px;
+}
+
+.ph6{
+    margin: 70px;
+    padding: 10px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+    right: -50px;
+}
+
+.logo1{
+    margin: 70px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 130px;
+    right: 1px;
+}
+
+.icon1{
+    position: relative;
+    bottom: 185px;
+    left: 75px;
+    width: 40px;
+    height: 40px;
+}
+
+.pha{
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    position: relative;
+    bottom: 215px;
+    left: 140px;
+}
+
+.links1{
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    position: relative;
+    bottom: 290px;
+    left: 600px;
+}
+
+.links1 ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.links2{
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    position: relative;
+    bottom: 400px;
+    left: 800px;
+}
+
+.links2 ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.icon2{
+    position: relative;
+    bottom: 450px;
+    left: 1100px;
+}
+
+.icon4{
+    position: relative;
+    left: 50px;
+}
+
+.icon5{
+    position: relative;
+    left: 100px;
+}
+
